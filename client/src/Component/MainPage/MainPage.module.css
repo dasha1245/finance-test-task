@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+p{
+    font-family: 'Open-Sans', sans-serif;
+}
+
+.display_none {
+    display: none;
+}
+
+.main_div {
+    width: 100vw;
+    height: 100vh;
+
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    background: rgb(253, 236, 239);
+}
+
+.menu_div {
+    width: 24vw;
+    height: 100vh;
+
+    position: fixed;
+    left: 0;
+    z-index: 2;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    background: rgb(19, 60, 85);
+    border: none;
+    border-radius: 0 10px 10px 0;
+}
+
+.back_div {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 2;
+    background: rgba(140, 146, 168, 0.3);
+}
+
+.icon_bars {
+    margin: 30px 0 0 30px;
+    font-size: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+
+    color: rgb(180, 255, 150);
+    cursor: pointer;
+}
+
+.icon_bars_change_color {
+    margin: 30px 0 0 30px;
+    font-size: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+
+    color: rgb(19, 60, 85);
+}
+.icon_user{
+    margin-bottom: 5px;
+    margin-right: 10px;
+    font-size: 20px;
+    color: rgb(180, 255, 150);
+}
+.menu_text_div{
+    margin-top: 120px;
+    margin-left: 30px;
+
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.menu_text{
+    font-size: 18px;
+    font-weight: 600;
+
+
+    color: rgb(180, 255, 150);
+    cursor: pointer;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content_header_text{
+    font-weight: 700;
+    font-size: 25px;
+
+    margin-bottom: 0;
+    color: rgb(19, 60, 85);
+}
+.content_text{
+    width: 90vw;
+    padding-bottom: 10px;
+
+    font-weight: 500;
+    font-size: 18px;
+
+    color: rgb(19, 60, 85);
+
+    border-bottom: 1px solid rgb(19, 60, 85);
+}

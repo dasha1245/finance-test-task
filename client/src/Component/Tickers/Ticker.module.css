@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+p {
+    font-family: "Open-Sans", sans-serif;
+}
+
+.display_none {
+    display: none;
+}
+
+.main_div {
+    width: 30vw;
+    height: 200px;
+    margin: auto 15px 15px 15px;
+
+    background: rgb(249, 200, 209);
+
+    border: 1px solid rgb(19, 60, 85);
+    border-radius: 15px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ticker_name_div_main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.ticker_name_div {
+    width: 70px;
+    height: 30px;
+    margin-left: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(19, 60, 85);
+    border-radius: 5px;
+
+    color: rgb(180, 255, 150);
+    font-weight: 600;
+}
+
+.ticker_name {
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(19, 60, 85);
+}
+
+.main_div:hover {
+    background: rgb(251, 218, 224);
+}
+
+.price {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(19, 60, 85);
+}
+
+.chane_main_div {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.change_price_div {
+    width: 90px;
+    height: 30px;
+    margin-bottom: 10px;
+
+    border-radius: 6px;
+    background: rgba(19, 60, 85, 0.88);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price_down {
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(239, 46, 46);
+}
+
+.price_up {
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(180, 255, 150);
+}
+
+.icon_arrow {
+    margin-right: 10px;
+}
+.icon_circle{
+    margin-right: 20px;
+    color: rgb(19, 60, 85);
+    cursor: pointer;
+}
